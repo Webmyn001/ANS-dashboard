@@ -39,16 +39,16 @@ useEffect(()=> {
      {
            result.map((info,i) => (
                             
-                          <div  key={i} className="flex items-center justify-center" datd-aos="zoom-in">
-                            <div  className="flex  bg-gradient-to-b  from-[#f3e1c1] to-[#fefbe9] flex-col rounded-lg items-center justify-center w-[400px] md:w-[500px]  shadow-2xl my-8 ">
+                          <div  key={i} className="flex items-center justify-center" data-aos="zoom-in">
+                            <div  className="flex  bg-gradient-to-b  from-[#f3e1c1] to-[#fefbe9] flex-col rounded-lg items-center justify-center w-[350px] md:w-[500px]  shadow-2xl my-8 ">
 
                          
                             <img src={info.images[0].url}
-                             alt="..." className='rounded-lg object-cover py-4 w-[350px] md:w-[400px]' />
+                             alt="..." className='rounded-lg object-cover h-[250px]  w-[300px] py-4  md:w-[400px]' />
 
                               
-                            <h1 className="text-2xl font-bold px-4 pt-1 pb-0 mt-1">  {info.Title} </h1>
-                            <h1 className="text-2xl font-bold  px-4 pt-1 pb-0 mt-1">  {info.Subtitle} </h1>
+                            <h1 className="text-2xl font-bold text-center px-4 pt-1 pb-0 mt-1">  {info.Title} </h1>
+                            <h1 className="text-2xl font-bold text-center px-4 pt-1 pb-0 mt-1">  {info.Subtitle} </h1>
 
                               
                               

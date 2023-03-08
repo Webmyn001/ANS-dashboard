@@ -10,9 +10,16 @@ function Formdetails() {
   const [Body1, setBody1] = useState("")
   const [Body2, setBody2] = useState("")
   const [Body3, setBody3] = useState("")
+  const [Body4, setBody4] = useState("")
+  const [Body5, setBody5] = useState("")
+  const [Body6, setBody6] = useState("")
+  const [Body7, setBody7] = useState("")
+  const [Body8, setBody8] = useState("")
+
+
+
   const [images, setImages] = useState("")
  
-  const [Body4, setBody4]= useState("")
 
   const navigate = useNavigate();
   
@@ -23,7 +30,7 @@ function Formdetails() {
     
 
 
-    axios.post("https://easy-crown-bull.cyclic.app/api/lessons/add", {Title,Subtitle,Body1,Body2,Body3,images,Body4})
+    axios.post("https://easy-crown-bull.cyclic.app/api/lessons/add", {Title,Subtitle,Body1,Body2,Body3,images,Body4,Body5,Body6,Body7,Body8})
     .then((res)=>
     { 
     console.log("saved succesfully")
@@ -77,6 +84,21 @@ const OnchangeBody4 =(e)=> {
   setBody4(e.target.value)
 }
 
+const OnchangeBody5 =(e)=> {
+  setBody4(e.target.value)
+}
+
+const OnchangeBody6 =(e)=> {
+  setBody4(e.target.value)
+}
+
+const OnchangeBody7 =(e)=> {
+  setBody4(e.target.value)
+}
+
+const OnchangeBody8 =(e)=> {
+  setBody4(e.target.value)
+}
 const Onchangeimages = async (e) => { 
   const files = Array.from(e.target.files)
       
@@ -137,6 +159,26 @@ console.log(Title, Subtitle, Body1, Body2, Body3,Body4)
                 className=" border-[#0b0f11] focus:outline-0
                  border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
 
+               <label className=" text-[#7f030d] py-1 font-semibold">Fourth body</label>
+                <textarea  value={Body4} onChange={OnchangeBody4}  placeholder="Forth paragraph"
+                className=" border-[#0b0f11] focus:outline-0
+                 border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
+
+               <label className=" text-[#7f030d] py-1 font-semibold">Five body</label>
+                <textarea  value={Body5} onChange={OnchangeBody5}  placeholder="Fifth paragraph"
+                className=" border-[#0b0f11] focus:outline-0
+                 border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
+
+              <label className=" text-[#7f030d] py-1 font-semibold">Six body</label>
+                <textarea  value={Body6} onChange={OnchangeBody6}  placeholder="Sixth paragraph"
+                className=" border-[#0b0f11] focus:outline-0
+                 border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
+
+              <label className=" text-[#7f030d] py-1 font-semibold">Seven body</label>
+                <textarea  value={Body7} onChange={OnchangeBody7}  placeholder="Seventh paragraph"
+                className=" border-[#0b0f11] focus:outline-0
+                 border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
+
                 
 
                 <h1 className='pt-5 text-[#7f030d] pb-1 font-semibold text-xl'>Images</h1>
@@ -148,7 +190,7 @@ console.log(Title, Subtitle, Body1, Body2, Body3,Body4)
 
             
                <label className=" text-[#7f030d] py-1 font-semibold pt-7">Conclusion</label>
-                <textarea  value={Body4} onChange={OnchangeBody4} 
+                <textarea  value={Body8} onChange={OnchangeBody8} 
                 className=" border-[#0b0f11] focus:outline-0
                  border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
 
