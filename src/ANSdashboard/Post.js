@@ -85,19 +85,19 @@ const OnchangeBody4 =(e)=> {
 }
 
 const OnchangeBody5 =(e)=> {
-  setBody4(e.target.value)
+  setBody5(e.target.value)
 }
 
 const OnchangeBody6 =(e)=> {
-  setBody4(e.target.value)
+  setBody6(e.target.value)
 }
 
 const OnchangeBody7 =(e)=> {
-  setBody4(e.target.value)
+  setBody7(e.target.value)
 }
 
 const OnchangeBody8 =(e)=> {
-  setBody4(e.target.value)
+  setBody8(e.target.value)
 }
 const Onchangeimages = async (e) => { 
   const files = Array.from(e.target.files)
