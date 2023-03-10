@@ -164,17 +164,17 @@ console.log(Title, Subtitle, Body1, Body2, Body3,Body4)
                 className=" border-[#0b0f11] focus:outline-0
                  border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
 
-               <label className=" text-[#7f030d] py-1 font-semibold">Five body</label>
+               <label className=" text-[#7f030d] py-1 font-semibold">Fifth body</label>
                 <textarea  value={Body5} onChange={OnchangeBody5}  placeholder="Fifth paragraph"
                 className=" border-[#0b0f11] focus:outline-0
                  border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
 
-              <label className=" text-[#7f030d] py-1 font-semibold">Six body</label>
+              <label className=" text-[#7f030d] py-1 font-semibold">Sixth body</label>
                 <textarea  value={Body6} onChange={OnchangeBody6}  placeholder="Sixth paragraph"
                 className=" border-[#0b0f11] focus:outline-0
                  border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>
 
-              <label className=" text-[#7f030d] py-1 font-semibold">Seven body</label>
+              <label className=" text-[#7f030d] py-1 font-semibold">Seventh body</label>
                 <textarea  value={Body7} onChange={OnchangeBody7}  placeholder="Seventh paragraph"
                 className=" border-[#0b0f11] focus:outline-0
                  border-2 sm:w-[400px] w-[200px] h-[100px] rounded-lg px-3 text-[#20201f]"/>

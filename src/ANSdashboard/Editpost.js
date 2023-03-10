@@ -11,6 +11,12 @@ function Formdetails() {
   const [Body2, setBody2] = useState("")
   const [Body3, setBody3] = useState("")
   const [Body4, setBody4]= useState("")
+  const [Body5, setBody5]= useState("")
+  const [Body6, setBody6]= useState("")
+  const [Body7, setBody7]= useState("")
+  const [Body8, setBody8]= useState("")
+
+
 
  
   const navigate = useNavigate();
@@ -25,6 +31,12 @@ function Formdetails() {
     setBody3(response.data.Body3);
     
     setBody4(response.data.Body4);
+    setBody5(response.data.Body5);
+    setBody6(response.data.Body6);
+    setBody7(response.data.Body7);
+    setBody8(response.data.Body8);
+
+
 
 
   }
@@ -33,7 +45,7 @@ function Formdetails() {
    
 
     axios.patch(`https://easy-crown-bull.cyclic.app/api/lessons/${id}`, {Title, Subtitle, Body1,
-    Body2, Body3, Body4})
+    Body2, Body3, Body4, Body5, Body6, Body7, Body8})
     .then((res)=>
     { 
     console.log("saved succesfully")
@@ -75,6 +87,18 @@ const OnchangeBody4 =(e)=> {
   setBody4(e.target.value)
 }
 
+const OnchangeBody5 =(e)=> {
+  setBody5(e.target.value)
+}
+const OnchangeBody6 =(e)=> {
+  setBody6(e.target.value)
+}
+const OnchangeBody7 =(e)=> {
+  setBody7(e.target.value)
+}
+const OnchangeBody8 =(e)=> {
+  setBody8(e.target.value)
+}
  
  
   return (
@@ -106,12 +130,32 @@ const OnchangeBody4 =(e)=> {
                 className=" border-[#5a5542] focus:outline-0
                  border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
 
+<label className=" text-[#7f030d] py-1 ">Forth body</label>
+                <textarea  value={Body4} onChange={OnchangeBody4} placeholder="forth paragraph"
+                className=" border-[#5a5542] focus:outline-0
+                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+
+<label className=" text-[#7f030d] py-1 ">Fifth body</label>
+                <textarea  value={Body5} onChange={OnchangeBody5} placeholder="fifth paragraph"
+                className=" border-[#5a5542] focus:outline-0
+                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+
+<label className=" text-[#7f030d] py-1 ">Sixth body</label>
+                <textarea  value={Body6} onChange={OnchangeBody6} placeholder="sixth paragraph"
+                className=" border-[#5a5542] focus:outline-0
+                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+
+<label className=" text-[#7f030d] py-1 ">Seventh body</label>
+                <textarea  value={Body7} onChange={OnchangeBody7} placeholder="seventh paragraph"
+                className=" border-[#5a5542] focus:outline-0
+                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+
                 
 
              
                     
                <label className=" text-[#7f030d] py-1 ">conclusion</label>
-                <textarea  value={Body4} onChange={OnchangeBody4} placeholder="Conclusion"
+                <textarea  value={Body8} onChange={OnchangeBody8} placeholder="Conclusion"
                 className=" border-[#5a5542] focus:outline-0
                  border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
 
