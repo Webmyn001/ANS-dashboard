@@ -48,7 +48,6 @@ useEffect(()=> {
 
                               
                             <h1 className="text-2xl font-bold text-center px-4 pt-1 pb-0 mt-1">  {info.Title} </h1>
-                            <h1 className="text-2xl font-bold text-center px-4 pt-1 pb-0 mt-1">  {info.Subtitle} </h1>
 
                               
                               
