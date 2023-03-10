@@ -110,45 +110,45 @@ const OnchangeBody8 =(e)=> {
                 
                 <label className=" font-semibold text-[#7f030d] pt-3 text-xl py-1 ">Title </label>
                 <input placeholder="Title"  value={Title} onChange={Onchangetitle}
-                className=" border-[#5a5542] focus:outline-0 border-2 sm:w-[400px] rounded-lg px-3 text-[#594545]"/>
+                className=" border-[#5a5542] focus:outline-0 border-2 w-[250px] sm:w-[400px] rounded-lg px-3 text-[#594545]"/>
                 
                 <label className="font-semibold text-[#7f030d] pt-3  text-xl py-1 ">Subtitle</label>
                 <input placeholder="Sub topic" value={Subtitle} onChange={Onchangesubtitle}
-                className=" border-[#5a5542] focus:outline-0 border-2 mb-3 sm:w-[400px] rounded-lg px-3 text-[#594545]"/>
+                className=" border-[#5a5542] focus:outline-0 border-2 mb-3 w-[250px] sm:w-[400px] rounded-lg px-3 text-[#594545]"/>
 
                 <label className="  text-[#7f030d] pt-3 py-1 ">first body</label>
                 <textarea placeholder="First paragraph" value={Body1} onChange={OnchangeBody1}
-                className=" border-[#5a5542] text-[#20201f] focus:outline-0 border-2 w-[200px] sm:w-[400px] rounded-lg px-3 "/>
+                className=" border-[#5a5542] text-[#20201f] focus:outline-0 border-2 w-[250px] sm:w-[400px] rounded-lg px-3 "/>
 
                 <label className=" text-[#7f030d] py-1 ">Second body</label>
                 <textarea  value={Body2} onChange={OnchangeBody2} placeholder="Second paragraph"
                 className=" border-[#5a5542] focus:outline-0 border-2
-                 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+                 sm:w-[400px] w-[250px] rounded-lg px-3 text-[#20201f]"/>
 
                 <label className=" text-[#7f030d] py-1 ">Third body</label>
                 <textarea  value={Body3} onChange={OnchangeBody3} placeholder="Third paragraph"
                 className=" border-[#5a5542] focus:outline-0
-                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+                 border-2 sm:w-[400px] w-[250px] rounded-lg px-3 text-[#20201f]"/>
 
 <label className=" text-[#7f030d] py-1 ">Forth body</label>
                 <textarea  value={Body4} onChange={OnchangeBody4} placeholder="forth paragraph"
                 className=" border-[#5a5542] focus:outline-0
-                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+                 border-2 sm:w-[400px] w-[250px] rounded-lg px-3 text-[#20201f]"/>
 
 <label className=" text-[#7f030d] py-1 ">Fifth body</label>
                 <textarea  value={Body5} onChange={OnchangeBody5} placeholder="fifth paragraph"
                 className=" border-[#5a5542] focus:outline-0
-                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+                 border-2 sm:w-[400px] w-[250px] rounded-lg px-3 text-[#20201f]"/>
 
 <label className=" text-[#7f030d] py-1 ">Sixth body</label>
                 <textarea  value={Body6} onChange={OnchangeBody6} placeholder="sixth paragraph"
                 className=" border-[#5a5542] focus:outline-0
-                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+                 border-2 sm:w-[400px] w-[250px] rounded-lg px-3 text-[#20201f]"/>
 
 <label className=" text-[#7f030d] py-1 ">Seventh body</label>
                 <textarea  value={Body7} onChange={OnchangeBody7} placeholder="seventh paragraph"
                 className=" border-[#5a5542] focus:outline-0
-                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+                 border-2 sm:w-[400px] w-[250px] rounded-lg px-3 text-[#20201f]"/>
 
                 
 
@@ -157,7 +157,7 @@ const OnchangeBody8 =(e)=> {
                <label className=" text-[#7f030d] py-1 ">conclusion</label>
                 <textarea  value={Body8} onChange={OnchangeBody8} placeholder="Conclusion"
                 className=" border-[#5a5542] focus:outline-0
-                 border-2 sm:w-[400px] w-[200px] rounded-lg px-3 text-[#20201f]"/>
+                 border-2 sm:w-[400px] w-[250px] rounded-lg px-3 text-[#20201f]"/>
 
                 
                 
