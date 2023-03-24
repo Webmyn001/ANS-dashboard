@@ -39,7 +39,8 @@ function Formdetails() {
     
 
 
-    axios.post("https://easy-crown-bull.cyclic.app/api/lessons/add", {Title,Subtitle,Body1,Body2,Body3,images,Body4,Body5,Body6,Body7,Body8,Body9,Body10,Body11,Body12,Body13,Body14,Body15,Body16})
+    axios.post("https://easy-crown-bull.cyclic.app/api/lessons/add", {Title,Subtitle,Body1,Body2,Body3,images,
+    Body4,Body5,Body6,Body7,Body8,Body9,Body10,Body11,Body12,Body13,Body14,Body15,Body16})
     .then((res)=>
     { 
     console.log("saved succesfully")
