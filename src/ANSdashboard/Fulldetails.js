@@ -114,14 +114,7 @@ function Fulldetails(props) {
                     </div>
                   
                  
-                   <div>
-                    <h2 className="pt-4 text-[#7f030d] px-5 text-center text-base"> 
-           <Link to="/comment"> Kindly
-           <button className="text-[#1048a9] px-1">  Click here</button></Link> to 
-           drop your comments about the lectures.
-            </h2>
-                    </div>
-
+                   
                    </div>
                   
                 </div>
